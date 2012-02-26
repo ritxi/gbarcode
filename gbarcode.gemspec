@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.email = "angel@delagoya.com"
   s.homepage = "http://gbarcode.rubyforge.org"
   s.test_files = FileList['test/**/*']
-  s.files = FileList['*.txt', 'doc/**/*.*', 'ext/**/*.c', 'ext/**/*.h', 'ext/**/*.rb']
+  s.files = FileList['*.txt', 'doc/**/*.*', 'ext/**/*.c', 'ext/**/*.h', 'ext/**/*.rb', 'gbarcode.gemspec']
   s.require_paths = [".","ext"]
   s.extensions = ["ext/extconf.rb"]
   s.extra_rdoc_files = FileList['*.txt']
