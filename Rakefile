@@ -3,7 +3,7 @@ require 'rake'
 require 'rake/clean'
 require 'rake/testtask'
 require 'rake/packagetask'
-require 'rake/rdoctask'
+require 'rdoc/task'
 
 desc "package the gem"
 task :package do
